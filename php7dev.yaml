@@ -15,8 +15,8 @@ networking:
     - public: true
 
 folders:
-#    - map: example-folder
-#      to: /path/in/vagrant/example-folder
+   - map: src
+     to: /home/vagrant/src
 
 databases:
     - example_database
